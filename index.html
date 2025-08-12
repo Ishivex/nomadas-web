@@ -47,8 +47,13 @@
     <!-- Footer -->
     <footer class="bg-gray-900 border-t border-gray-700 mt-12"><div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center text-gray-400"><p class="brand-text text-lg mb-2">NÓMADAS</p><p>&copy; 2024 Nómadas. Todos los derechos reservados.</p></div></footer>
 
-    <!-- SDK de Firebase y script principal -->
-    <script type="module" src="js/main.js"></script>
+    <!-- SDK de Firebase (Método Clásico y Robusto) -->
+    <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-auth-compat.js"></script>
+    
+    <!-- Script Principal (SIN type="module") -->
+    <script src="js/main.js"></script>
 
 </body>
 </html>
